@@ -1,0 +1,152 @@
+.resume {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: rgb(247, 37, 133);
+	background: linear-gradient(
+		235deg,
+		rgba(247, 37, 133, 0.55) 0%,
+		rgba(114, 9, 183, 0.6) 26%,
+		rgba(114, 9, 183, 0.8) 49%,
+		rgba(67, 97, 238, 0.9) 78%,
+		rgba(76, 201, 240, 1) 100%
+	);
+}
+.myresume {
+	width: 100%;
+	height: 18%;
+	display: flex;
+	flex-direction: row;
+	gap: 3vw;
+}
+.myresumetitle {
+	width: 16%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	font-size: 2vw;
+	font-weight: bold;
+	color: white;
+}
+.resumeline {
+	width: 72.5%;
+	height: 90%;
+	border: 3px solid;
+	border-image-slice: 1;
+	border-width: 3px;
+	border-image-source: linear-gradient(to left, black 0%, white 50%);
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+}
+.herearemyexperiences {
+	height: 7%;
+	width: 38.31%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	font-size: 1vw;
+	font-weight: bold;
+	color: white;
+}
+.resumecont {
+	width: 100%;
+	height: 73%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	padding-top: 2vw;
+}
+.intership {
+	width: 30%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3vw;
+	align-items: center;
+}
+.education {
+	width: 30%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3vw;
+	align-items: center;
+}
+.intershiptitle {
+	font-weight: bold;
+	font-size: 1.5vw;
+	--tw-shadow: 0px 0px 16px 1px #f72585;
+	--tw-shadow-colored: 0px 0px 16px 1px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #f72585),
+		var(--tw-ring-shadow, 0 0 #f72585), var(--tw-shadow);
+	padding: 1vw;
+	border-radius: 30px 10px 30px 10px;
+	background-color: white;
+}
+.educationtitle {
+	font-weight: bold;
+	font-size: 1.5vw;
+	--tw-shadow: 0px 0px 16px 1px #3a0ca3;
+	--tw-shadow-colored: 0px 0px 16px 1px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0#3a0ca3),
+		var(--tw-ring-shadow, 0 0 #3a0ca3), var(--tw-shadow);
+	padding: 1vw;
+	border-radius: 30px 10px 30px 10px;
+	background-color: white;
+}
+.intershipsum {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	--tw-shadow: 0px 0px 16px 1px #f72585;
+	--tw-shadow-colored: 0px 0px 16px 1px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #f72585),
+		var(--tw-ring-shadow, 0 0 #f72585), var(--tw-shadow);
+	padding: 2vw;
+	overflow-y: scroll;
+	background-color: white;
+}
+
+.intershipsum p {
+	text-align: start;
+}
+.intershipsum p1 {
+	color: gray;
+	text-align: center;
+}
+.intershipsum p2 {
+	color: gray;
+	text-align: start;
+}
+.educationsum {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	--tw-shadow: 0px 0px 16px 1px #3a0ca3;
+	--tw-shadow-colored: 0px 0px 16px 1px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0#3a0ca3),
+		var(--tw-ring-shadow, 0 0 #3a0ca3), var(--tw-shadow);
+	padding: 2vw;
+	overflow-y: scroll;
+	background-color: white;
+}
+.educationsum p {
+	text-align: start;
+}
+.educationsum p1 {
+	font-weight: bold;
+}
+.certificatesp {
+	width: 100%;
+	height: auto;
+	--tw-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.1);
+	--tw-shadow-colored: 0px 0px 16px 1px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+		var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
