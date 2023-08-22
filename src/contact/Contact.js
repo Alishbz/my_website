@@ -89,7 +89,7 @@ function Contact() {
 									data-aos="fade-up"
 								/>
 							</label>
-							<button className="sendbutton" type="submit">
+							<button className="sendbutton" type="submit" data-aos="zoom-in">
 								Send <RiSendPlaneFill size={15} />
 							</button>
 						</form>
@@ -99,7 +99,7 @@ function Contact() {
 					<div className="letstalk" data-aos="fade-up">
 						Let's Talk
 					</div>
-					<div className="iconsforcommunication">
+					<div className="iconsforcommunication" data-aos="zoom-in">
 						<a
 							href="https://t.me/Ergl_Sami"
 							target="_blank"
@@ -117,7 +117,7 @@ function Contact() {
 									color: "black",
 								}}
 							>
-								<BiLogoTelegram size={40} data-aos="zoom-in" />
+								<BiLogoTelegram size={40} />
 								<div style={{ color: "white" }} data-aos="fade-up">
 									Telegram
 								</div>
@@ -140,7 +140,7 @@ function Contact() {
 									color: "black",
 								}}
 							>
-								<IoLogoWhatsapp size={40} data-aos="zoom-in" />
+								<IoLogoWhatsapp size={40} />
 								<div style={{ color: "white" }} data-aos="fade-up">
 									Whatsapp
 								</div>
@@ -163,7 +163,7 @@ function Contact() {
 									color: "black",
 								}}
 							>
-								<AiFillInstagram size={40} data-aos="zoom-in" />
+								<AiFillInstagram size={40} />
 								<div style={{ color: "white" }} data-aos="fade-up">
 									Instagram
 								</div>

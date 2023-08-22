@@ -93,8 +93,8 @@ function Home() {
 			</div>
 			<div className="cont1">
 				<img className="mephoto" data-aos="fade-up" src={me} alt=""></img>
-				<div className="circle1" data-aos="fade-up"></div>
-				<div className="circle2" data-aos="fade-up"></div>
+				<div className="circle1" data-aos="fade-down"></div>
+				<div className="circle2" data-aos="fade-down"></div>
 			</div>
 		</div>
 	);
