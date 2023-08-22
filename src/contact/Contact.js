@@ -84,6 +84,7 @@ function Contact() {
 										fontSize: "1vw",
 										paddingLeft: ".4vw",
 										paddingTop: ".4vw",
+										resize: "none",
 									}}
 									data-aos="fade-up"
 								/>
