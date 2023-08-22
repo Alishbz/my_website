@@ -17,7 +17,7 @@ import "aos/dist/aos.css";
 
 function Skills() {
 	useEffect(() => {
-		AOS.init();
+		AOS.init({ disable: window.innerWidth < 768 });
 	}, []);
 	return (
 		<div className="skills" id="section-2">

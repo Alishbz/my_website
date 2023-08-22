@@ -142,3 +142,93 @@
 .icon22:hover {
 	color: black;
 }
+@media screen and (max-width: 480px) {
+	.skillscont {
+		width: 100%;
+		height: 83%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.myskills {
+		width: 100%;
+		height: 13%;
+		display: flex;
+		flex-direction: row;
+		gap: 3vw;
+	}
+	.line {
+		width: 65%;
+		height: 90%;
+		border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+	}
+	.myskillstitle {
+		width: 25%;
+		height: 100%;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		font-size: 4vw;
+		font-weight: bold;
+		color: rgba(0, 0, 0, 0.5);
+	}
+	.herearemyskills {
+		height: 4%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 2.5vw;
+		font-weight: bold;
+	}
+	.loadings {
+		width: 80%;
+		height: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 3%;
+		font-size: 3vw;
+		font-weight: bold;
+	}
+	.progress-6 {
+		width: 80vw;
+		height: 1.5vh;
+		border-radius: 20px;
+		position: relative;
+	}
+	.progress-6::before {
+		content: "";
+		position: absolute;
+		margin: 2px;
+		inset: 0 100% 0 0;
+		border-radius: inherit;
+		background: currentColor;
+		animation: p6 6s infinite;
+	}
+	@keyframes p6 {
+		100% {
+			inset: 0 0 0 0;
+		}
+	}
+	.skillicons {
+		width: 100%;
+		height: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+	}
+	.icons {
+		width: 26vw;
+		height: 13vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 10vw;
+		align-items: center;
+	}
+}

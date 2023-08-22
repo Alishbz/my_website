@@ -1,6 +1,5 @@
 .home {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: flex-end;
 	justify-content: center;
 
@@ -103,7 +102,7 @@
 	width: 20vw;
 	height: 10vh;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -171,4 +170,115 @@
 	border-radius: 50% 50%;
 	aspect-ratio: 1;
 	z-index: 1;
+}
+@media screen and (max-width: 480px) {
+	.home {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.cont {
+		width: 100%;
+		height: 70%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 3%;
+	}
+	.cont1 {
+		width: 100%;
+		height: 30%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.smicons {
+		width: 100%;
+		height: 5vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		scale: 80%;
+	}
+	.buttons {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 3vw;
+		align-items: center;
+	}
+	.hirebutton {
+		font-family: "Roboto", sans-serif;
+		font-family: "Josefin Sans", sans-serif;
+		width: 40vw;
+		height: 4.2vh;
+		font-size: 4vw;
+		font-weight: bold;
+		color: white;
+		background-color: black;
+		border: none;
+		border-radius: 10px;
+		transition: 0.5s;
+	}
+	.resumebutton {
+		display: flex;
+		flex-direction: row;
+		font-family: "Roboto", sans-serif;
+		font-family: "Josefin Sans", sans-serif;
+		width: 39vw;
+		height: 4vh;
+		font-size: 4vw;
+		font-weight: bold;
+		color: black;
+		background-color: white;
+		border: none;
+		border-radius: 10px;
+		align-items: center;
+		justify-content: center;
+		gap: 0.3vh;
+		transition: 0.5s;
+	}
+	.hello {
+		width: 80%;
+		text-align: start;
+		color: white;
+		font-size: 10vw;
+		font-weight: 700;
+	}
+	.typinganimation {
+		width: 100%;
+		font-size: 6vw;
+		color: #ff6dae;
+		font-weight: 700;
+	}
+	.aboutme {
+		text-align: start;
+		color: white;
+		width: 80%;
+		font-size: 2.5vh;
+	}
+	.circle1 {
+		display: none;
+	}
+	.circle2 {
+		display: none;
+	}
+	.mephoto {
+		width: auto;
+		height: 100%;
+		scale: 70%;
+		border-radius: 100% 50% 50% 60%;
+		background-color: #7209b7;
+		z-index: 2;
+		box-shadow: 0px 0px 182px -5px rgba(0, 0, 0, 1);
+		-webkit-box-shadow: 0px 0px 182px -5px rgba(0, 0, 0, 1);
+		-moz-box-shadow: 0px 0px 182px -5px rgba(0, 0, 0, 1);
+	}
 }

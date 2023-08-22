@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function Works() {
 	useEffect(() => {
-		AOS.init();
+		AOS.init({ disable: window.innerWidth < 768 });
 	}, []);
 	return (
 		<div className="works" id="section-3">
@@ -17,16 +17,10 @@ function Works() {
 			<div className="herearemyworks" data-aos="fade-up">
 				Here are my portfolio.
 			</div>
-			<div data-aos="zoom-in">
+			<div className="worksiframecont" data-aos="zoom-in">
 				<iframe
 					className="workscont"
 					src="https://samieroglu-portfolio.netlify.app/"
-					style={{
-						width: "80vw",
-						height: "67vh",
-						marginTop: "3vh",
-						border: "none",
-					}}
 					title="MyPortfolio"
 				></iframe>
 			</div>

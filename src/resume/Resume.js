@@ -11,7 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function Resume() {
 	useEffect(() => {
-		AOS.init();
+		AOS.init({ disable: window.innerWidth < 768 });
 	}, []);
 	return (
 		<div className="resume" id="section-4">

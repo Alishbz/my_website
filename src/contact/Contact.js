@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 
 function Contact() {
 	useEffect(() => {
-		AOS.init();
+		AOS.init({ disable: window.innerWidth < 768 });
 	}, []);
 	return (
 		<div className="contact" id="section-5">
@@ -28,30 +28,14 @@ function Contact() {
 						<p1>You Need</p1>
 						<p2>Beautiful design for your website leave a request</p2>
 					</div>
-					<div
-						style={{
-							width: "5%",
-							height: "100%",
-							display: "flex",
-							justifyContent: "center",
-							alignItems: "center",
-							paddingRight: "10vw",
-						}}
-						data-aos="zoom-in"
-					>
+					<div className="arrowright" data-aos="zoom-in">
 						<BsFillArrowRightSquareFill size={60} />
 					</div>
 					<div className="email">
 						<form action="mailto:samie.github@gmail.com">
 							<label>
 								<input
-									style={{
-										width: "20vw",
-										height: "3vh",
-										fontFamily: "Josefin Sans",
-										fontSize: "1vw",
-										paddingLeft: ".4vw",
-									}}
+									className="formemail"
 									type="email"
 									name="email"
 									placeholder="e.g example@email.com"
@@ -60,13 +44,7 @@ function Contact() {
 							</label>
 							<label>
 								<input
-									style={{
-										width: "20vw",
-										height: "3vh",
-										fontFamily: "Josefin Sans",
-										fontSize: "1vw",
-										paddingLeft: ".4vw",
-									}}
+									className="formemail"
 									type="text"
 									name="name"
 									placeholder="e.g Sami Eroglu"
@@ -75,17 +53,11 @@ function Contact() {
 							</label>
 							<label>
 								<textarea
+									className="areaemail"
 									name="postContent"
 									rows={6}
 									cols={40.5}
 									placeholder="Write your message"
-									style={{
-										fontFamily: "Josefin Sans",
-										fontSize: "1vw",
-										paddingLeft: ".4vw",
-										paddingTop: ".4vw",
-										resize: "none",
-									}}
 									data-aos="fade-up"
 								/>
 							</label>
