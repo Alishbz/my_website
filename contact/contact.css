@@ -1,0 +1,166 @@
+.contact {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.contactme {
+	width: 100%;
+	height: 18%;
+	display: flex;
+	flex-direction: row;
+	gap: 3vw;
+}
+.contactmetitle {
+	width: 16%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	font-size: 2vw;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.5);
+}
+.line {
+	width: 72.5%;
+	height: 90%;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
+.contactmecont {
+	width: 100%;
+	height: 82%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.needandemail {
+	width: 70%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: start;
+}
+.need {
+	width: 35%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: start;
+}
+.need p1 {
+	font-size: 3vw;
+	font-weight: bold;
+}
+.need p2 {
+	font-size: 1.5vw;
+}
+.email {
+	width: 35%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.email form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 1vw;
+}
+.sendbutton {
+	width: 20.4vw;
+	height: 4vh;
+	font-size: 1vw;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+	font-family: "Josefin Sans", sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.3vw;
+	background-color: #7209b7;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+.sendbutton:hover {
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transform: scale(1.03);
+}
+.sendbutton:active {
+	transition: none;
+	transform: translateY(2px);
+}
+.footer {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #7209b7;
+	color: white;
+}
+.letstalk {
+	width: 100%;
+	height: 33%;
+	font-size: 4.5vw;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.iconsforcommunication {
+	width: 100%;
+	height: 33%;
+	font-weight: bold;
+	font-size: 1vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 2vw;
+}
+.instagram:hover {
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transform: scale(1.03);
+}
+.whatsapp:hover {
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transform: scale(1.03);
+}
+.telegram:hover {
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transform: scale(1.03);
+}
+.instagram:active {
+	transition: none;
+	transform: translateY(2px);
+}
+.whatsapp:active {
+	transition: none;
+	transform: translateY(2px);
+}
+.telegram:active {
+	transition: none;
+	transform: translateY(2px);
+}
+.copyright {
+	width: 100%;
+	height: 33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
