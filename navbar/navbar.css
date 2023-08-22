@@ -1,0 +1,52 @@
+.navbar {
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 10vh;
+	z-index: 5;
+}
+.navbarname {
+	width: 25%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5vw;
+	font-weight: bold;
+	color: black;
+}
+.navbarmenu {
+	width: 70%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 1.5vw;
+	font-weight: 450;
+	gap: 3vw;
+}
+.hiremebutton {
+	font-family: "Roboto", sans-serif;
+	font-family: "Josefin Sans", sans-serif;
+	width: 10vw;
+	height: 5vh;
+	text-align: center;
+	font-size: 1vw;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.hiremebutton:hover {
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transform: scale(1.03);
+}
+.hiremebutton:active {
+	transition: none;
+	transform: translateY(2px);
+}
