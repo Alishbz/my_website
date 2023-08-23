@@ -86,7 +86,7 @@ function Contact() {
 									justifyContent: "center",
 									alignItems: "center",
 									gap: ".5vw",
-									color: "black",
+									color: "#CE85FF",
 								}}
 							>
 								<BiLogoTelegram size={40} />
@@ -109,7 +109,7 @@ function Contact() {
 									justifyContent: "center",
 									alignItems: "center",
 									gap: ".5vw",
-									color: "black",
+									color: "#CE85FF",
 								}}
 							>
 								<IoLogoWhatsapp size={40} />
@@ -132,7 +132,7 @@ function Contact() {
 									justifyContent: "center",
 									alignItems: "center",
 									gap: ".5vw",
-									color: "black",
+									color: "#CE85FF",
 								}}
 							>
 								<AiFillInstagram size={40} />

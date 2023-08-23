@@ -39,9 +39,10 @@ function Home() {
 				</div>
 				<div className="aboutme" data-aos="fade-up">
 					<p>
-						I'm an engineer passionate about creativity, learning, and
-						problem-solving. I aim to contribute innovative solutions to
-						engineering projects and make a significant impact on technology.
+						I'm an engineer passionate about creative problem-solving. Driven by
+						curiosity, I excel at challenges within teams. With keen attention
+						to detail, I aim to bring innovative solutions to projects,
+						contributing to technological advancement.
 					</p>
 				</div>
 				<div className="buttons" data-aos="fade-up">
