@@ -1,3 +1,6 @@
+a {
+	color: inherit;
+}
 .works {
 	width: 100%;
 	height: 100vh;
@@ -43,21 +46,231 @@
 }
 .herearemyworks {
 	height: 7%;
-	width: 27.8%;
+	width: 26.6%;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 	font-size: 1vw;
 	font-weight: bold;
 }
-.workscont {
-	-webkit-box-shadow: 0px 0px 102px -10px rgba(255, 255, 255, 0.72);
-	-moz-box-shadow: 0px 0px 102px -10px rgba(255, 255, 255, 0.72);
-	box-shadow: 0px 0px 102px -10px rgba(255, 255, 255, 0.72);
-	width: 80vw;
-	height: 67vh;
-	margin-top: 3vh;
+.browserview {
+	width: 100%;
+	height: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.cardscontainer {
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.cards {
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+.cardsbgimg {
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/cards/cell.png");
+	background-size: cover;
+	background-position: 50%, 50%;
+	filter: blur(0);
+	transition: filter 0.5s ease;
+	z-index: 0;
+}
+.cards:hover .cardsbgimg {
+	filter: blur(5px);
+}
+.cardcontent {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.5s;
+	border-radius: 15px;
+}
+.cardcontent:hover {
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-radius: 15px;
+	scale: 99%;
+	opacity: 1;
+}
+.cardtext {
+	width: 80%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-break: auto;
+	font-size: 2vw;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+.cardbuttons {
+	width: 100%;
+	height: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1vw;
+}
+
+.cardbutton {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5vw;
 	border: none;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	padding: 0.7vw;
+}
+.cardbutton:hover {
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transform: scale(1.03);
+}
+.cardbutton:active {
+	transition: none;
+	transform: translateY(2px);
+}
+.cards1 {
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+.cardsbgimg1 {
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/cards/n3c4.png");
+	background-size: cover;
+	background-position: 50%, 50%;
+	filter: blur(0);
+	transition: filter 0.5s ease;
+	z-index: 0;
+}
+.cards1:hover .cardsbgimg1 {
+	filter: blur(5px);
+}
+.cards2 {
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+.cardsbgimg2 {
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/cards/signlanguage.png");
+	background-size: cover;
+	background-position: 50%, 50%;
+	filter: blur(0);
+	transition: filter 0.5s ease;
+	z-index: 0;
+}
+.cards2:hover .cardsbgimg2 {
+	filter: blur(5px);
+}
+.cards3 {
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+.cardsbgimg3 {
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/cards/portfolio.png");
+	background-size: cover;
+	background-position: 50%, 50%;
+	filter: blur(0);
+	transition: filter 0.5s ease;
+	z-index: 0;
+}
+.cards3:hover .cardsbgimg3 {
+	filter: blur(5px);
+}
+
+.cards4 {
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+.cardsbgimg4 {
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/cards/sql.png");
+	background-size: cover;
+	background-position: 50%, 50%;
+	filter: blur(0);
+	transition: filter 0.5s ease;
+	z-index: 0;
+}
+.cards4:hover .cardsbgimg4 {
+	filter: blur(5px);
+}
+
+.cards5 {
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+.cardsbgimg5 {
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/cards/timeline.png");
+	background-size: cover;
+	background-position: 50%, 50%;
+	filter: blur(0);
+	transition: filter 0.5s ease;
+	z-index: 0;
+}
+.cards5:hover .cardsbgimg5 {
+	filter: blur(5px);
 }
 @media screen and (max-width: 480px) {
 	.myworks {
@@ -96,16 +309,5 @@
 		justify-content: center;
 		font-size: 2.5vw;
 		font-weight: bold;
-	}
-	.workscont {
-		-webkit-box-shadow: 0px 0px 102px -10px rgba(255, 255, 255, 0.72);
-		-moz-box-shadow: 0px 0px 102px -10px rgba(255, 255, 255, 0.72);
-		box-shadow: 0px 0px 102px -10px rgba(255, 255, 255, 0.72);
-		width: 90%;
-		height: 93%;
-	}
-	.worksiframecont {
-		width: 100%;
-		height: 83%;
 	}
 }
