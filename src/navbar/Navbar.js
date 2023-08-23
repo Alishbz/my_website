@@ -91,7 +91,7 @@ function Navbar() {
 					onClick={handleClickScroll4}
 					style={{ cursor: "pointer" }}
 				>
-					HIRE ME
+					Hire Me
 				</button>
 			</div>
 		</div>

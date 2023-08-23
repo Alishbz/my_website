@@ -30,8 +30,8 @@
 .hiremebutton {
 	font-family: "Roboto", sans-serif;
 	font-family: "Josefin Sans", sans-serif;
-	width: 12%;
-	height: 45%;
+	width: 14%;
+	height: 50%;
 	text-align: center;
 	font-size: 70%;
 	font-weight: bold;
@@ -40,6 +40,7 @@
 	border: none;
 	border-radius: 10px;
 	transition: 0.5s;
+	font-size: 1vw;
 }
 .hiremebutton:hover {
 	transition-timing-function: ease-in-out;
