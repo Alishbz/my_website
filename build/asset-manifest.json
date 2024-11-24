@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my_website/static/css/main.828424af.css",
+    "main.js": "/my_website/static/js/main.f1f24c50.js",
+    "static/js/787.480ae777.chunk.js": "/my_website/static/js/787.480ae777.chunk.js",
+    "static/media/js.png": "/my_website/static/media/js.5dba516522e7b53a1ad5.png",
+    "static/media/cell.png": "/my_website/static/media/cell.1633164a149a11e6573f.png",
+    "static/media/python.png": "/my_website/static/media/python.d46dee168365ee54d276.png",
+    "static/media/json.png": "/my_website/static/media/json.20f716c508bfd9dbe20b.png",
+    "static/media/aws.png": "/my_website/static/media/aws.3a57712415b2c010eefe.png",
+    "static/media/rust.png": "/my_website/static/media/rust.650036f8f6252c04751f.png",
+    "static/media/p5.png": "/my_website/static/media/p5.2c6990adab642acd6669.png",
+    "static/media/portfolio.png": "/my_website/static/media/portfolio.0c065aa85987cc87b895.png",
+    "static/media/ai.png": "/my_website/static/media/ai.352cb6485a2e74893ace.png",
+    "static/media/Ali Sahbaz_CV_vers_1.06.pdf": "/my_website/static/media/Ali Sahbaz_CV_vers_1.06.d8dfc2c2e056d5bae8e0.pdf",
+    "static/media/sql.png": "/my_website/static/media/sql.2d0d72f4095287da081c.png",
+    "static/media/timeline.png": "/my_website/static/media/timeline.5b6735c4e3d1297d5d18.png",
+    "static/media/n3c4.png": "/my_website/static/media/n3c4.33488739339d7e48daf8.png",
+    "static/media/me.png": "/my_website/static/media/me.091bef5346cb0c610c66.png",
+    "static/media/signlanguage.png": "/my_website/static/media/signlanguage.ccb0f849efabcdb4ef4c.png",
+    "index.html": "/my_website/index.html",
+    "main.828424af.css.map": "/my_website/static/css/main.828424af.css.map",
+    "main.f1f24c50.js.map": "/my_website/static/js/main.f1f24c50.js.map",
+    "787.480ae777.chunk.js.map": "/my_website/static/js/787.480ae777.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.828424af.css",
+    "static/js/main.f1f24c50.js"
+  ]
+}
