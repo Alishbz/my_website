@@ -25,14 +25,14 @@ function Contact() {
 			<div className="contactmecont">
 				<div className="needandemail">
 					<div className="need" data-aos="fade-up">
-						<p1>You Need</p1>
-						<p2>Beautiful design for your website leave a request</p2>
+						<p1>If You Need</p1>
+						<p2>Powerful Hardware or Software then find me </p2>
 					</div>
 					<div className="arrowright" data-aos="zoom-in">
 						<BsFillArrowRightSquareFill size={60} />
 					</div>
 					<div className="email">
-						<form action="mailto:samie.github@gmail.com">
+						<form action="mailto:ali_sahbaz@outlook.com">
 							<label>
 								<input
 									className="formemail"
@@ -47,7 +47,7 @@ function Contact() {
 									className="formemail"
 									type="text"
 									name="name"
-									placeholder="e.g Sami Eroglu"
+									placeholder="e.g Ali Sahbaz"
 									data-aos="fade-up"
 								/>
 							</label>
@@ -73,7 +73,7 @@ function Contact() {
 					</div>
 					<div className="iconsforcommunication" data-aos="zoom-in">
 						<a
-							href="https://t.me/Ergl_Sami"
+							href=""
 							target="_blank"
 							rel="noopener noreferrer"
 							style={{ textDecoration: "none" }}
@@ -119,7 +119,7 @@ function Contact() {
 							</div>
 						</a>
 						<a
-							href="https://ig.me/m/ergl.sami"
+							href=""
 							target="_blank"
 							rel="noopener noreferrer"
 							style={{ textDecoration: "none" }}

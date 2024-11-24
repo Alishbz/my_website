@@ -7,7 +7,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { HiDocumentText } from "react-icons/hi";
 import { HiDownload } from "react-icons/hi";
 import me from "../assets/me.png";
-import cv from "../assets/SamiErogluCV.pdf";
+import cv from "../assets/Ali Sahbaz_CV_vers_1.06.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -26,11 +26,11 @@ function Home() {
 		<div className="home" id="section-1">
 			<div className="cont">
 				<div className="hello" data-aos="fade-up">
-					Hello, I'm Sami Eroglu
+					Hi, I'm Ali Şahbaz
 				</div>
 				<div data-aos="fade-up">
 					<TypeAnimation
-						sequence={["Web Developer", 2000, "Freelancer", 2000, ""]}
+						sequence={["C++ Developer", 1200, "Embedded Developer", 1200, "Game Developer", 1200, "Quant Developer", 1200, "Trader", 1200]}
 						speed={30}
 						wrapper="div"
 						repeat={Infinity}
@@ -39,10 +39,7 @@ function Home() {
 				</div>
 				<div className="aboutme" data-aos="fade-up">
 					<p>
-						I'm an engineer passionate about creative problem-solving. Driven by
-						curiosity, I excel at challenges within teams. With keen attention
-						to detail, I aim to bring innovative solutions to projects,
-						contributing to technological advancement.
+						I am a seasoned C++ and embedded software developer with extensive experience in the field. My interests extend to trading applications, game development, artificial intelligence, computer vision, machine learning, and embedded Linux. Passionate about crafting innovative solutions, I continually explore technologies that shape the future.
 					</p>
 				</div>
 				<div className="buttons" data-aos="fade-up">
@@ -51,7 +48,7 @@ function Home() {
 					</button>
 					<a
 						href={cv}
-						download="SamiErogluCV"
+						download="Ali Sahbaz_CV_vers_1.06"
 						target="_blank"
 						rel="noopener noreferrer"
 						style={{ textDecoration: "none" }}
@@ -63,28 +60,28 @@ function Home() {
 				</div>
 				<div className="smicons" data-aos="zoom-in">
 					<a
-						href="https://github.com/SamiEroglu"
+						href="https://github.com/Alishbz"
 						rel="noreferrer"
 						target="_blank"
 					>
 						<AiFillGithub className="icon1" size={40} />
 					</a>
 					<a
-						href="https://www.linkedin.com/in/sami-ero%C4%9Flu-37614b26a/"
+						href="https://www.linkedin.com/in/ali-%C5%9Fahbaz-6588a8115/"
 						rel="noreferrer"
 						target="_blank"
 					>
 						<AiFillLinkedin className="icon2" size={40} />
 					</a>
 					<a
-						href="https://www.instagram.com/ergl.sami/"
+						href=""
 						rel="noreferrer"
 						target="_blank"
 					>
 						<AiFillInstagram className="icon3" size={40} />
 					</a>
 					<a
-						href="https://samieroglu-portfolio.netlify.app/"
+						href=""
 						rel="noreferrer"
 						target="_blank"
 					>

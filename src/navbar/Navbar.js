@@ -14,7 +14,7 @@ function Navbar() {
 
 	const handleScroll = () => {
 		if (window.scrollY > 100) {
-			setNavbarColor("rgba(255,255,255,0.9)");
+			setNavbarColor("rgba(11,88,199,0.7)");
 			setNavbarwebkitboxshadow("0px 0px 76px -21px rgba(0,0,0,0.54)");
 			setNavbarmozboxshadow("0px 0px 76px -21px rgba(0,0,0,0.54)");
 			setNavbarboxshadow("0px 0px 76px -21px rgba(0,0,0,0.54)");
@@ -72,7 +72,7 @@ function Navbar() {
 				boxShadow: navbarboxshadow,
 			}}
 		>
-			<div className="navbarname">Sami E.</div>
+			<div className="navbarname">Ali Şahbaz</div>
 			<div className="navbarmenu">
 				<div onClick={handleClickScroll} style={{ cursor: "pointer" }}>
 					HOME
@@ -84,7 +84,7 @@ function Navbar() {
 					WORKS
 				</div>
 				<div onClick={handleClickScroll3} style={{ cursor: "pointer" }}>
-					RESUME
+
 				</div>
 				<button
 					className="hiremebutton"

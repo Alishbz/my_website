@@ -14,65 +14,27 @@ function Works() {
 		<div className="works" id="section-3">
 			<div className="myworks">
 				<div className="myworkstitle" data-aos="fade-up">
-					My Works
+					Expertises
 				</div>
 				<div className="worksline" data-aos="fade-up"></div>
 			</div>
 			<div className="herearemyworks" data-aos="fade-up">
-				Here are my works.
+				My Professional Fields of Expertise
 			</div>
 			<BrowserView className="browserview">
 				<div className="cardscontainer">
 					<div className="cards" data-aos="zoom-in">
 						<div className="cardsbgimg" />
 						<div className="cardcontent">
-							<p className="cardtext">TUBITAK Project Named Cell Project</p>
-							<div className="cardbuttons">
-								<a
-									href="https://cell-project.netlify.app/"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<HiOutlineExternalLink /> Demo
-									</button>
-								</a>
-								<a
-									href="https://github.com/SamiEroglu/cellProject"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<AiOutlineGithub /> Code
-									</button>
-								</a>
-							</div>
+							<p className="cardtext">Robotic Projects - Mechanic Design - Complex Algorithms </p>
+
 						</div>
 					</div>
 					<div className="cards1" data-aos="zoom-in">
 						<div className="cardsbgimg1" />
 						<div className="cardcontent">
-							<p className="cardtext">n3wcr4ft Website </p>
-							<div className="cardbuttons">
-								<a
-									href="https://n3c4-website.netlify.app/"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<HiOutlineExternalLink /> Demo
-									</button>
-								</a>
-								<a
-									href="https://github.com/SamiEroglu/n3c4-web"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<AiOutlineGithub /> Code
-									</button>
-								</a>
-							</div>
+							<p className="cardtext"> Motor Control - Sensors - Measurement control technologies and special solutions </p>
+
 						</div>
 					</div>
 				</div>
@@ -81,54 +43,16 @@ function Works() {
 						<div className="cardsbgimg2" />
 						<div className="cardcontent">
 							<p className="cardtext">
-								Graduation Project Named Engelsiz Terapi
+								PCB Design and Specialized Engineering Problem Solving
 							</p>
-							<div className="cardbuttons">
-								<a
-									href="https://engelsizterapi.netlify.app/"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<HiOutlineExternalLink /> Demo
-									</button>
-								</a>
-								<a
-									href="https://github.com/SamiEroglu/SeniorProject"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<AiOutlineGithub /> Code
-									</button>
-								</a>
-							</div>
+
 						</div>
 					</div>
 					<div className="cards3" data-aos="zoom-in">
 						<div className="cardsbgimg3" />
 						<div className="cardcontent">
-							<p className="cardtext">My Portfolio Website</p>
-							<div className="cardbuttons">
-								<a
-									href="https://samieroglu-portfolio.netlify.app/"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<HiOutlineExternalLink /> Demo
-									</button>
-								</a>
-								<a
-									href="https://github.com/SamiEroglu/portfolio"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<AiOutlineGithub /> Code
-									</button>
-								</a>
-							</div>
+							<p className="cardtext">Pro Firmware Design C/C++ - Embedded Linux</p>
+
 						</div>
 					</div>
 				</div>
@@ -136,44 +60,15 @@ function Works() {
 					<div className="cards4" data-aos="zoom-in">
 						<div className="cardsbgimg4" />
 						<div className="cardcontent">
-							<p className="cardtext">Backend Project for Engelsiz Terapi</p>
-							<div className="cardbuttons">
-								<a
-									href="https://github.com/SamiEroglu/SeniorProject-Backend"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<AiOutlineGithub /> Code
-									</button>
-								</a>
-							</div>
+							<p className="cardtext"> Algo Trade Bots , HFT , Quant Software Developer </p>
+
 						</div>
 					</div>
 					<div className="cards5" data-aos="zoom-in">
 						<div className="cardsbgimg5" />
 						<div className="cardcontent">
-							<p className="cardtext">Timeline Project named n3wcr4ft Local</p>
-							<div className="cardbuttons">
-								<a
-									href="https://timelinexample.netlify.app/"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<HiOutlineExternalLink /> Demo
-									</button>
-								</a>
-								<a
-									href="https://github.com/SamiEroglu/timeline-example"
-									rel="noreferrer"
-									target="_blank"
-								>
-									<button className="cardbutton">
-										<AiOutlineGithub /> Code
-									</button>
-								</a>
-							</div>
+							<p className="cardtext"> High Level Software Design - GUI - Backend Services - Image Process - C++ </p>
+
 						</div>
 					</div>
 				</div>
@@ -203,7 +98,7 @@ function Works() {
 										</button>
 									</a>
 									<a
-										href="https://github.com/SamiEroglu/cellProject"
+										href="https://github.com/Alishbz/Trader_Bot"
 										rel="noreferrer"
 										target="_blank"
 									>
@@ -231,7 +126,7 @@ function Works() {
 										</button>
 									</a>
 									<a
-										href="https://github.com/SamiEroglu/n3c4-web"
+										href="https://github.com/Alishbz/Trader_Bot"
 										rel="noreferrer"
 										target="_blank"
 									>
@@ -261,7 +156,7 @@ function Works() {
 										</button>
 									</a>
 									<a
-										href="https://github.com/SamiEroglu/SeniorProject"
+										href="https://github.com/Alishbz/Trader_Bot"
 										rel="noreferrer"
 										target="_blank"
 									>
@@ -289,7 +184,7 @@ function Works() {
 								<p className="cardtext">My Portfolio Website</p>
 								<div className="cardbuttons">
 									<a
-										href="https://samieroglu-portfolio.netlify.app/"
+										href="https://github.com/Alishbz/Trader_Bot"
 										rel="noreferrer"
 										target="_blank"
 									>
@@ -298,7 +193,7 @@ function Works() {
 										</button>
 									</a>
 									<a
-										href="https://github.com/SamiEroglu/portfolio"
+										href="https://github.com/Alishbz/Trader_Bot"
 										rel="noreferrer"
 										target="_blank"
 									>
@@ -317,7 +212,7 @@ function Works() {
 								<p className="cardtext">Backend Project for Engelsiz Terapi</p>
 								<div className="cardbuttons">
 									<a
-										href="https://github.com/SamiEroglu/SeniorProject-Backend"
+										href="https://github.com/Alishbz/Trader_Bot"
 										rel="noreferrer"
 										target="_blank"
 									>
@@ -347,7 +242,7 @@ function Works() {
 										</button>
 									</a>
 									<a
-										href="https://github.com/SamiEroglu/timeline-example"
+										href="https://github.com/Alishbz/Trader_Bot"
 										rel="noreferrer"
 										target="_blank"
 									>

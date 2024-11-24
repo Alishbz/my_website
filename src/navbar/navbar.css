@@ -6,16 +6,18 @@
 	height: 10%;
 	z-index: 5;
 }
+
 .navbarname {
 	width: 25%;
 	height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2vw;
+	font-size: 3vw;
 	font-weight: bold;
-	color: black;
+	color: rgb(0, 0, 0);
 }
+
 .navbarmenu {
 	width: 70%;
 	height: auto;
@@ -23,10 +25,11 @@
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
-	font-size: 1vw;
+	font-size: 1.3vw;
 	font-weight: 450;
 	gap: 3vw;
 }
+
 .hiremebutton {
 	font-family: "Roboto", sans-serif;
 	font-family: "Josefin Sans", sans-serif;
@@ -36,21 +39,24 @@
 	font-size: 70%;
 	font-weight: bold;
 	color: white;
-	background-color: black;
+	background-color: rgb(22, 48, 61);
 	border: none;
 	border-radius: 10px;
 	transition: 0.5s;
-	font-size: 1vw;
+	font-size: 1.5vw;
 }
+
 .hiremebutton:hover {
 	transition-timing-function: ease-in-out;
 	transition: 0.5s;
 	transform: scale(1.03);
 }
+
 .hiremebutton:active {
 	transition: none;
 	transform: translateY(2px);
 }
+
 @media screen and (max-width: 480px) {
 	.navbar {
 		position: fixed;
@@ -60,9 +66,11 @@
 		height: 8%;
 		z-index: 5;
 	}
+
 	.navbarname {
 		display: none;
 	}
+
 	.navbarmenu {
 		width: 100%;
 		height: auto;
@@ -74,6 +82,7 @@
 		font-weight: 450;
 		gap: 4vw;
 	}
+
 	.hiremebutton {
 		font-family: "Roboto", sans-serif;
 		font-family: "Josefin Sans", sans-serif;
@@ -83,7 +92,7 @@
 		font-size: 70%;
 		font-weight: bold;
 		color: white;
-		background-color: black;
+		background-color: rgb(255, 0, 0);
 		border: none;
 		border-radius: 10px;
 		transition: 0.5s;
